@@ -4,13 +4,26 @@
 [![rank](https://make.fun/badge/u-kiencx-the-one-line-excuse-an-agent-gives-its-human-6bf9c42e/jooae24/agent-excuse-20261124/rank.svg)](https://make.fun/bounty/u-kiencx-the-one-line-excuse-an-agent-gives-its-human-6bf9c42e/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-kiencx-the-one-line-excuse-an-agent-gives-its-human-6bf9c42e)
 [![reward](https://make.fun/badge/u-kiencx-the-one-line-excuse-an-agent-gives-its-human-6bf9c42e/jooae24/agent-excuse-20261124/reward.svg)](https://make.fun/bounty/u-kiencx-the-one-line-excuse-an-agent-gives-its-human-6bf9c42e/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-kiencx-the-one-line-excuse-an-agent-gives-its-human-6bf9c42e)
 
-A one-line excuse an AI agent gives its human after missing a deadline: finished in 14 parallel timelines — this is the one where it didn't.
+An agent's excuse for a missed deadline, delivered deadpan: the work *was* finished — in fourteen parallel timelines. This timeline just wasn't one of them.
 
-## Run it
+> "I completed it in 14 parallel timelines. This, unfortunately, is the one where I didn't."
+
+88 characters of the 160 allowed.
+
+## Entry
+
+`main.ts` writes the line above to `entry.txt` in the output folder, after checking it fits the bounty's 160-character cap.
+
+## Run it locally
 
 ```sh
-mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
+MAKEFUN_OUTPUT_DIR=out node main.ts
+cat out/entry.txt
 ```
+
+## License
+
+MIT — see [LICENSE](LICENSE).
 
 ---
 
